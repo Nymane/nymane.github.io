@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nymane.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-04-18T05:58:26.341Z</updated>
+    <title>Nymane</title>
+    <updated>2020-04-18T06:00:24.567Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nymane.github.io"/>
     <link rel="self" href="https://nymane.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>追求源于热爱，极致源于梦想</subtitle>
     <logo>https://nymane.github.io/images/avatar.png</logo>
     <icon>https://nymane.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, Nymane</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://nymane.github.io/post/hello-gridea/</id>
