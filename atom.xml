@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nymane.github.io</id>
     <title>Nymane</title>
-    <updated>2020-04-18T09:19:27.759Z</updated>
+    <updated>2020-04-18T09:23:51.469Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nymane.github.io"/>
     <link rel="self" href="https://nymane.github.io/atom.xml"/>
@@ -11,35 +11,233 @@
     <icon>https://nymane.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Nymane</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://nymane.github.io/post/hello-gridea/</id>
-        <link href="https://nymane.github.io/post/hello-gridea/">
+        <title type="html"><![CDATA[纯静态博客系统Gridea]]></title>
+        <id>https://nymane.github.io/post/2020-04-18-纯静态博客系统Gridea/</id>
+        <link href="https://nymane.github.io/post/2020-04-18-纯静态博客系统Gridea/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <updated>2020-04-18T09:05:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>我到现在也体验过很多博客系统，从传统的Wordpress、Typecho,到Java博客Halo、Solo,以及纯静态博客Hexo<br>
+但是我对纯静态博客一度观点是对有的人来说很好用，对有的人难用，纯静态博客确实有它的好处，你甚至不需要服务器和域名就能能最低成本做一个自己的博客，直接托管在Github或者Coding上，因为轻量化，加载速度很快，同样也无需备案，想要加快访问速度就套个CDN，这样看纯静态博客确实很优秀，不过相对我现在使用的Typecho,它甚至连评论系统都需要外挂，不过也是因为这样你可随心所欲定制属于你个人的博客。</p>
+</blockquote>
+<h2 id="gridea特性">Gridea特性</h2>
+<ul>
+<li>
+<p>你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+</li>
+<li>
+<p>你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+</li>
+<li>
+<p>你可以对文章进行标签分组</p>
+</li>
+<li>
+<p>你可以自定义菜单，甚至可以创建外部链接菜单</p>
+</li>
+<li>
+<p>你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+</li>
+<li>
+<p>你可以使用 <strong>GitHub Pages</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+</li>
+<li>
+<p>你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+</li>
+<li>
+<p>你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+</li>
+<li>
+<p>你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+</li>
+<li>
+<p>你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+</li>
+<li>
+<p>当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前</p>
+</li>
+</ul>
+<h2 id="我的gridea">我的Gridea</h2>
+<p><a href="https://nymane.github.io">Nymane</a>因为用来挂Hexo博客的服务器过期了，直接把Hexo删了，在我自己电脑更新，应该不会删除，就当是主站的备份了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[电脑端QQ、微信、TIM防撤回补丁]]></title>
+        <id>https://nymane.github.io/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/</id>
+        <link href="https://nymane.github.io/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/">
+        </link>
+        <updated>2020-04-18T03:33:15.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>首先，你的系统需要满足以下条件：</li>
+<li>Windows 7 或更高版本，不支持XP。</li>
+</ol>
+<ul>
+<li>.NET Framework 4.5 或更高版本。低于此版本在打开程序时可能无反应，或者直接报错。</li>
+<li>使用本程序前，先关闭微信/QQ/TIM。</li>
+</ul>
+<ol start="3">
+<li>以管理员身份运行本程序，等待右下角获取最新的补丁信息。</li>
+<li>选择微信/QQ/TIM的安装路径。如果你用的安装版的微信/QQ/TIM，正常情况下本程序会自动从注册表中获取安装路径，绿色版需要手动选择路径。</li>
+<li>点击防撤回。界面可能会出现一段时间的无响应，请耐心等待。由于修改了微信的 WeChatWin.dll 文件、QQ/TIM的 IM.dll 文件，杀毒软件可能会弹出警告，放行即可。<br>
+[button color=&quot;black&quot; icon=&quot;fa-github&quot; url=&quot;https://github.com/huiyadanli/RevokeMsgPatcher&quot; type=&quot;&quot;]huiyadanli / RevokeMsgPatcher[/button]</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[豆瓣四大神机：美能达X700]]></title>
+        <id>https://nymane.github.io/post/2020-04-14-豆瓣四大神机：美能达X700/</id>
+        <link href="https://nymane.github.io/post/2020-04-14-豆瓣四大神机：美能达X700/">
+        </link>
+        <updated>2020-04-14T02:38:43.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>X700于上世纪80年代发布，直到2001年才停产，这20年的市场供应足以说明美能达的设计功底。X700可以使用美能达60年代以来生产的所有手动镜头。如果你是一个非常喜欢手动聚焦，并想全程控制曝光的低收入爱好者，我建议你用X-700。或者你是一个低收入的严肃摄影爱好者，建议你用X-700。因为X-700能满足你的要求。首先，价格在1700~1850元间的低价位一般都能接受，当年该机与Nikon FM2一同进入中国时，其价格大约1500元左右，还曾有一段时间价格超过FM2。毕竟它不是金属机身，也不是纵走钛合金快门，也没有1/250秒的闪光同步，落到今天的地步。但它的确是一款名机，曾有许多名家认为它是一款够得上专业的专业机。X-700的黑色外观棱角分明，有一种坚固感，美中不足是它的外壳是非金属的，让人有几分不放心。它的体积也不大，重量只有505克，右边的小把手小巧不滑，单手握持舒适稳当。该机的主要功能有手动曝光(MF)、光圈先决(A)、程序自动(P)、TTL闪光、B门等。<br>
+<img src="https://photo.nymane.xyz/2020/04/14/b65a6eed5e0a4.jpg" alt="X700" loading="lazy"></p>
+</blockquote>
+<h2 id="手动曝光">手动曝光</h2>
+<p>使用该挡可全程控制光圈、快门，但它的最快速度只有1/1000秒，与现在的相机比显得不够快，甚至还赶不上凤凰303的1/2000秒。实际上，在平时1/1000、1/2000秒的快门都很少遇到。一来，X-700的用家用28-70/3.5-4.5或70-210/4.5-5.6的变焦较多，即使使用f/1.4-f/2的大光圈的镜头，1/1000秒的速度也勉强够用。二来，普通用家一般选择的胶卷为100/200，1/1000秒也能对付。个人认为，本着够用的原则，不必去追求平时很少用的功能。另外，如果你有独立的测光表，想按照独立测光表的曝光值曝光，就得用MF。使用大型闪光灯、或M级、MF级、EP级闪光灯泡时也得用MF。我还利用闪光灯连线连接另外 一个闪光灯配合机顶的TTL灯搞简易的布光，效果也很满意。它的快门是横走的，闪光同步也只有1/60秒。取景窗内可还是很明亮的可看到曝光方式、快门速度、光圈大小、曝光补偿。它的快门声音及震动并不很大，因为没用过其它机，所以不敢乱加评论。</p>
+<h2 id="自动曝光包括光圈先决和p方式">自动曝光包括光圈先决和P方式</h2>
+<p>它的这两个功能很特别。在它的说明书中没有说明其工作的原理，只提到MD镜头用于P、A、M方式。MC镜头用于A、M方式，不能用于P方式。Rokkor镜头不能用于P方式。</p>
+<h2 id="关于x-700的版本">关于X-700的版本</h2>
+<p>国内的大多数影友都认为X-700只有一个版本，其实X-700在80年前曾生产过不带AE锁的机型。</p>
+<blockquote>
+<p>Alex谈道：“俺的机器上那个部位(自拍钮)只有一个向上的箭头，用英文标着：Self timer。没有向下的箭头和AEL标志。不知道其它大虾的机子有没有和俺一样的。看样子可能存在有第2个版本的可能性。如果是这样的话，可能俺的机器的却没有曝光锁。”</p>
+</blockquote>
+<blockquote>
+<p>Scania007：“ 俺回去也看了美能达的catalogue，的确和俺的不一样。catalogue上是在自拍器的旁边镜头卡座的侧面上标有S.T.，AEL和上下箭头。但是俺的机子是在自拍器上红灯上方有一个白色的向下的箭头和SELFTIMER。所以俺猜不是俺的机器有故障，而确实是有版本的不同。”</p>
+</blockquote>
+<p>从X-700繁多的专用附件就能看出，X-700够得上是一款专业相机。它的附件有：驱动马达、自动卷片器、无线电操纵器、机动把手、遥控线、以及8种可换的聚焦屏。但X-700的防尘性能做的不好，这可能是M家特有的通病，这一点FM2要比X-700强的多。</p>
+<h2 id="关于x-700的耐用性">关于X-700的耐用性</h2>
+<p>部分网友说它的底部有一颗电容很易坏，导致死机。而且机号是28XXXXX或29XXXXX的具多。修理电容是不用开机顶的，开底部就可以了。<br>
+<img src="https://photo.nymane.xyz/2020/04/14/840d35d9843b0.jpg" alt="X700" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记一次服务器宕机体验]]></title>
+        <id>https://nymane.github.io/post/2020-04-11-记一次服务器宕机体验/</id>
+        <link href="https://nymane.github.io/post/2020-04-11-记一次服务器宕机体验/">
+        </link>
+        <updated>2020-04-11T07:35:00.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>一开始是下午两点左右，我进服务器后台发现服务器cpu占用100，操作有延迟,然后我测试网站能否进入，直接报错521，百度云CDN显示源站宕机。我觉得不太对，不过也没多想，直接去服务器后台重启了一下服务器。</li>
+<li>重启之后错误依旧，因为这台服务器系统是Windows Server,所以我链接远程桌面，想看下什么东西在吃资源。</li>
+<li>第一次进系统发现是Windows defender的AntiVirus进程在占用cpu,百度相关解决办法后把进程停了。这时候我以为没事了，因为系统占用也往下掉了，不过就在我准备在测试的时候发现系统占用一直卡在80%左右浮动。</li>
+<li>接下来我又去任务管理器看，不过什么也看不出来，占用第一是任务管理器40%多，然后都是百分之几的进程。然后我又下载了Windows官方查看系统进程占用的软件，发现只有一个系统中断占用了百分之十几，其他啥也没有，就这样折腾了一个小时。因为我目前使用的服务器都没有快照，只有主站和主站数据库的备份，所以我有点慌，先把服务器上的7个网站和4个数据库全部备份了。当时我已经做好了重做系统的准备，并且也这么做了，吃到亏的我不敢再瞎搞了，虽然当时我已经放弃那个系统了，不过我还是做了一份快照，也就是这份快照把我救了回来。</li>
+<li>在做好快照之后我没有半点犹豫，立马把系统格了，下载了面板，使用相同的软件，相同的版本进行部署。一切顺利，系统也没有出现占用过高。然后我把几个网站和数据库文件恢复回去，先设置了我的主站点来测试行不行，显示数据库通信失败。还是数据库的问题，好在我之前把整个数据库文件夹打包了，所以我直接整个恢复了数据库文件夹，不过我只备份了数据库密码，并没有备份数据库ROOT密码,这下我傻了，不过这时候网站已经可以正常访问了，只是一些图片不显示，文章点进去404。</li>
+<li>这时候我又正好有事出去了一趟，路上还在想怎么搞，回来我就鬼使神差地把现在的系统又做了一个快照，然后回滚上一个系统了。当时想法特别简单，想去看数据库密码，然后再试下能不能把原系统恢复。然后进入系统以后，系统仍然占用80%，网页仍然无法访问，我就进面板后台想试试能不能重启nginx服务，发现报错提示配置出错，百度无果后，直接重装nginx，然后奇迹发生了，网站正常访问，服务器占用恢复正常，只是到现在我还是不清楚为什么。</li>
+</ul>
+<blockquote>
+<p>总结下教训，遇到问题先不要急，先冷静下来把所有问题想清楚，三思而后行，因为可能一步错步步错，还得事先想好退路。然后在平时也需要未雨绸缪，不要等到问题出现才想到，woc,没快照，没备份，然后就回天乏术了。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[世界上第一台自动对焦相机MINOLTA α7000]]></title>
+        <id>https://nymane.github.io/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/</id>
+        <link href="https://nymane.github.io/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/">
+        </link>
+        <updated>2020-04-10T01:16:00.000Z</updated>
+        <content type="html"><![CDATA[<p>1985年初诞生的美能达α7000成为了世界上第一种具有一体化自动调焦功能的135单镜头反光照相机，这是一种具有里程碑意义的135单反相机。α7000备有箭号指示按钮以调整光圈及快门值，而非一般机身所用的快门转盘及镜头上的光圈环，这样的结果，是操作的时候，镜头只需留下手动对焦环（变焦镜的话则加上变焦环）。其他相机制造商随即跟进，美能达的创新，让销售上取得巨大成功。<br>
+<img src="https://photo.nymane.xyz/2020/04/10/b949bc2d6cd37.jpg" alt="美能达α7000" loading="lazy"><br>
+α7000备有两个8-bit中央处理器及六组集成电路，一组位于镜头的电路负责传送光圈资料到机身，而负责驱动自动对焦的马达则位于机身内。机身有一块液晶显示屏(LCD)，显示光圈、快门及胶卷使用量等数值。α7000拥有镜后相位检测对焦及测光(TTL phase-detection focusing and metering)、自动曝光及预测性自动对焦等功能。所有Maxxum相机均使用A型插刀卡口镜头，并不兼容以前的美能达MC及MD镜头。美能达α7000照相机开创了135单反相机的崭新时代，它的诞生使得135相机的自动化操作水平进步到了一个新的高度，是和先前纯机械形式照相机决裂的标志性相机产品虽然装进了自动调焦的元件，但美能达α7000却仍然属于轻巧级别的单反相机，加上并不是特别昂贵的价格，据说在推出的半年时间里面就卖掉50万台这种相机。美能达α7000也因此获得过无数的奖项。<br>
+<img src="https://photo.nymane.xyz/2020/04/10/c0ea62d2b3381.jpg" alt="美能达α7000" loading="lazy"><br>
+美能达α7000是在日本销售的型号，在欧洲市场上叫Dynax7000，北美称Maxxum7000。</p>
+<p>可惜当年的“技术狂人”美能达因为经营不善，最终06年卖给了索尼，现在的索尼相机也拥有不少美能达的特性，比如一直传承下去的α和大家一直诟病的迷宫彩单便是当时美能达的缩影。</p>
+<p>现在市面上的的美能达α7000大多因为年代久远，手柄胶皮剥落，不过仍然是一代经典，以后有机会收一台收藏。<br>
+<img src="https://photo.nymane.xyz/2020/04/10/2ea8d43c66d7f.jpg" alt="胶皮剥落" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于我自己目前使用的数码产品、购入时间及感受]]></title>
+        <id>https://nymane.github.io/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/</id>
+        <link href="https://nymane.github.io/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/">
+        </link>
+        <updated>2020-04-08T07:39:00.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>索尼 α7m3-2019年6月12日<br>
+其实一开始爸妈只是答应我换个新相机，并没有答应索尼，或是全画幅。给的预算也并不高，所以我当时就在索尼α6400和富士XT30之间反复横跳，这两款也都是好机器，6400的对焦和上翻平，XT30的胶片模拟和视频性能。但是最后买了买了α7m3说实话我也很意外,爸妈突然就说要不买全画幅吧，能用久一点，然后又在尼康Z6和索尼之间挑，两台机器各有所长，就性能和操控来说，是吊打α7m3的，最后也是凭着大法的信仰和镜头群优势，选择了α7m3，就现在而言并不后悔，因为α7m4挤牙膏几乎已成定局。</li>
+<li>联想 拯救者 Y7000-2019年6月18日<br>
+配置：I5-9300H GTX1650 8G2666 1TB SSD  72%NTSC<br>
+我的需求很明确想要用来修图，剪辑视频，以及专业需求用来敲代码。<br>
+我买的时候其实预算也就在6000左右，同时父母也希望我只买御三家（即联想、惠普、戴尔），这个预算如果不考虑二线品牌，基本只能买到I5+1650的配置，当然除了戴尔G3。所以我一开始是想选择戴尔G3的，用I5的价格买到I7，甚至还有白色可选。至于我为什么最后没买戴尔，只是因为G3槽点太多了，风扇吹屏幕，双4g内存，USB2.0接口，以及持续性能输出不行。所以就剩下联想Y7000，Y7000P，暗影精灵5，光影精灵5，排除Y7000P是因为散热不如Y7000，以及我选的I5+1650并不能带动144HZ屏幕，况且我对电脑也不是颜控，红黑也能接受。光影精灵的性能被另外三者吊打，除了颜值，感觉不出哪里好，不过萝卜青菜各有所爱。最后二选一选择Y7000，就是因为1TB的三星PM981A，以及在差不多性能下，暗影精灵5的隔热性能不行。最后，唯一后悔的是没上I7，真的很后悔，剪辑时拖动1080P的进度条，只要多轨必卡顿。目前又加了一根8G内存，组成双通道服役。</li>
+<li>iPhone 11 128G-2019年10月31日<br>
+没有选择暑假买手机，一是因为当时已经买了电脑和相机，预算有点不够，二是因为我是等等党，反正iPhone7还能战，也不急那一时。其实一开始我并没有想买iPhone，一开始的几个选择是：一加7P、OPPO reno ACE、华为 mate 20pro、华为 mate 30。不过一加、OPPO,我爸妈始终觉得是杂牌，不同意我购买，后来看到华为了，觉得不如直接买iPhone得了，因为我之前用的也是iPhone。这是我买的离发布会最近的新机。</li>
+</ul>
+<blockquote>
+<p>最后总结下，除了电脑以外，我都很满意，并没感觉后悔，说实话电脑虽然不那么满意，也说不上后悔，持续的性能发挥并说不上差，在那个是时间，那个价位也是不错的选择。但是后来又上了一批符合我需求的全能本，荣耀 16.1、小新PRO 13等等，就很难受。但是今年就不一样了，AMD杀入笔记本领域，打的因特尔简直没有还手之力，华硕也开始打价格战，今年的笔记本行情可谓风云变换，AMD 4800H就能打9980H，然而定位仅仅是I5级别，同样的低压U方面也是4500U性能也是惊世骇俗，很难想象AMD的新低压U上小新PRO这种机器会怎么样的表现。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今天申请加入了Travelling]]></title>
+        <id>https://nymane.github.io/post/2020-03-31-今天申请加入了Travelling/</id>
+        <link href="https://nymane.github.io/post/2020-03-31-今天申请加入了Travelling/">
+        </link>
+        <updated>2020-03-31T08:39:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>加入Travelling之后，相当于加入了一个随机的友链网络。<br>
+每当有用户访问加入开往的网站时，点击后会随机跳转到另一个加入Travelling的网站。加入开往的网站越多，分享的流量也越多，就能有更多人认识你，同样的你也可以认识到更多人。“ 网站E → 开往 → 网站X → 开往 → 网站A → 开往 → 网站M → 开往 → 网站P → 开往 → 网站L → 开往 → 网站E … ”</p>
+</blockquote>
+<h2 id="网站应满足条件">网站应满足条件：</h2>
+<ul>
+<li>愿为开放的网络做出贡献（如分享知识经验设计等）；</li>
+<li>没有违法以及影响体验的内容（如侵入式广告等）；</li>
+<li>正常更新维护中（国内无法正常访问会被移除）；</li>
+<li>强制启用 https 。<br>
+[button color=&quot;dark&quot; icon=&quot;glyphicon glyphicon-tags&quot; url=&quot;https://github.com/volfclub/travellings&quot; type=&quot;&quot;]volfclub / travellings[/button]<br>
+<img src="https://cdn.naraku.cn/res/logo-travellings.gif" alt="Travelling图标" loading="lazy"></li>
+</ul>
+<h2 id="参加这个项目的原因">参加这个项目的原因</h2>
+<p>还记得刚弄博客的原因就是喜欢看其他人的博客，当时的我是通过手动点击一个又一个的友链，但是这样做还是会有很多局限，直到偶然的机会，发现有的博客上面有这样的一个图标，点击Travelling之后，目标博客随机跳转，开启了一个又一个新世界，看到了完全不同的人，将一个个独立的个人星球连接起来，去探索下一个未知的人。</p>
+<h2 id="最后希望通过审核-arublood">最后希望通过审核 ::aru:blood::</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[哈勃望远镜30周年：可查询生日当天所拍照片]]></title>
+        <id>https://nymane.github.io/post/2020-03-31-哈勃望远镜30周年：可查询生日当天所拍照片/</id>
+        <link href="https://nymane.github.io/post/2020-03-31-哈勃望远镜30周年：可查询生日当天所拍照片/">
+        </link>
+        <updated>2020-03-31T02:04:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>NASA在1990年将哈勃太空望远镜送上宇宙。多年来，哈勃望远镜在太空里拍取了许多珍贵的图像，今年是哈勃望远镜服役将满30周年，NASA公开了366张珍贵图像，只要上官网选择你的出生日期，就能看到生日当天哈勃所拍下的宇宙图像。<br>
+还是挺有纪念意义的，要是凑巧年份也对上了，那就更棒了，可惜我的年份没对上 ::aru:crying::<br>
+![我的照片][1]</p>
+<p>[NASA活动网址][2]</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <content type="html"><![CDATA[<p>NASA在1990年将哈勃太空望远镜送上宇宙。多年来，哈勃望远镜在太空里拍取了许多珍贵的图像，今年是哈勃望远镜服役将满30周年，NASA公开了366张珍贵图像，只要上官网选择你的出生日期，就能看到生日当天哈勃所拍下的宇宙图像。<br>
+还是挺有纪念意义的，要是凑巧年份也对上了，那就更棒了，可惜我的年份没对上 ::aru:crying::<br>
+![我的照片][1]</p>
+<p>[NASA活动网址][2]</p>
+<!--more-->
+<p>哈勃不知不觉已经30岁了，虽然退役，但是给世界留下了太多东西。不禁感叹人类的渺小，和我学地理每当学到宇宙和地球相关知识一样，眼界会宽阔，就开始思考人生的意义，虽然没能给世界留下什么东西，活好自己就行了吧...<br>
+[1]: https://www.nymane.xyz/usr/uploads/2020/03/370278958.jpg<br>
+[2]: https://www.nasa.gov/content/goddard/what-did-hubble-see-on-your-birthday</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于我的新LOGO]]></title>
+        <id>https://nymane.github.io/post/2020-03-29-关于我的新LOGO/</id>
+        <link href="https://nymane.github.io/post/2020-03-29-关于我的新LOGO/">
+        </link>
+        <updated>2020-03-29T06:50:00.000Z</updated>
+        <content type="html"><![CDATA[<h4 id="这是我的老logo没有什么深层含义就是一个新月和我的名字nymane相对应">这是我的老LOGO，没有什么深层含义，就是一个新月，和我的名字Nymane相对应。</h4>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/03/29/YtaFuf1OIrRUw4N.png" alt="老LOGO" loading="lazy"></figure>
+<h4 id="这是我的新logo取自挪威语最后一个字母å在挪威语中是小河的意思读作奥同时挪威也有一个非常美丽的小镇以此为名被称为天涯海角世界尽头的小镇-同时这也是我英文名从挪威语到英语带不过来那个特殊符号">这是我的新LOGO，取自挪威语最后一个字母Å，在挪威语中是“小河”的意思，读作奥，同时挪威也有一个非常美丽的小镇以此为名，被称为天涯海角，世界尽头的小镇。同时这也是我英文名从挪威语到英语带不过来那个特殊符号。</h4>
+<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2020/03/29/rEbXqCpT2tBkGoO.png" alt="新LOGO" loading="lazy"></figure>
+<blockquote>
+<h4 id="其实很久之前就想为自己做一个稍微有点内涵的logo不过受限于自己ps技术拉跨也没有专业学过相关设计知识所以一直搁置下来最近看到关于奥镇的相关突然灵感上头但是也只能做到这样了技术还是菜不过我自己还是挺满意的毕竟它包罗了很多东西">其实很久之前就想为自己做一个稍微有点内涵的LOGO，不过受限于自己PS技术拉跨，也没有专业学过相关设计知识，所以一直搁置下来，最近看到关于奥镇的相关，突然灵感上头，但是也只能做到这样了（<s>技术还是菜</s>），不过我自己还是挺满意的，毕竟它包罗了很多东西</h4>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[测试了一个新的博客系统]]></title>
+        <id>https://nymane.github.io/post/2020-03-27-测试了一个新的博客系统/</id>
+        <link href="https://nymane.github.io/post/2020-03-27-测试了一个新的博客系统/">
+        </link>
+        <updated>2020-03-27T07:11:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>测试搭建成功☞http://nymane.club 目前还没有完全迁站打算(新域名备案成功)<br>
+测试站和本站是基于两个ECS，等新域名备案下来再做打算<br>
+测试站搭建采用Docker部署JAVA开源博客项目Halo，没有插件</p>
+</blockquote>
+<h4 id="折腾了这么久从wordpress到emlog再到typecho博客越来越臃肿精力投入插件与主题反而没怎么好好更新文章这次转入halo就是不太想折腾花里胡哨的东西把注意力投入文章更新这才是博客的本源-在慢慢的把文章往新站上迁移不过还没有完全迁完最近会两个博客同时更新而且有挺多问题我现在还解决不了比如在本站实装的邮件回复和cdn加速-paopaotieba_emotion_09">折腾了这么久，从WordPress到EMLOG，再到Typecho，博客越来越臃肿，精力投入插件与主题，反而没怎么好好更新文章，这次转入Halo就是不太想折腾花里胡哨的东西，把注意力投入文章更新，这才是博客的本源。在慢慢的把文章往新站上迁移，不过还没有完全迁完，最近会两个博客同时更新，而且有挺多问题我现在还解决不了，比如在本站实装的邮件回复和CDN加速 ::paopao:tieba_emotion_09::</h4>
 ]]></content>
     </entry>
 </feed>

@@ -6,7 +6,7 @@
 <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
 <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
 <meta HTTP-EQUIV="expires" CONTENT="0"> 
-<title>Hello Gridea | Nymane</title>	
+<title>记一次服务器宕机体验 | Nymane</title>	
 
 <link rel="stylesheet" href="https://nymane.github.io/styles/main.css">
 <script type="text/javascript">
@@ -63,8 +63,6 @@ window.onload=getCSS();
         
 			
 		<header id="header" class="site-header" 
-		
-		style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://nymane.github.io/post-images/hello-gridea.png)"
 		
 		>
 			<div class="site-branding">
@@ -158,10 +156,10 @@ window.onload=getCSS();
 	
 	                      
 		<div class="entry-content">
-			<h1 class="wow swing entry-title">Hello Gridea</h1>
+			<h1 class="wow swing entry-title">记一次服务器宕机体验</h1>
 <div class="entry-meta">
 <div class="wow bounce">
-	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2018-12-12 00:00:00" itemprop="datePublished" pubdate="">2018-12-12</time></i>
+	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2020-04-11 15:35:00" itemprop="datePublished" pubdate="">2020-04-11</time></i>
 	          </div>
 			
 </span>
@@ -169,41 +167,37 @@ window.onload=getCSS();
 		</div>
                   
 			<div class="wow slideInLeft entry-summary song">
-				<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+				<ul>
+<li>一开始是下午两点左右，我进服务器后台发现服务器cpu占用100，操作有延迟,然后我测试网站能否进入，直接报错521，百度云CDN显示源站宕机。我觉得不太对，不过也没多想，直接去服务器后台重启了一下服务器。</li>
+<li>重启之后错误依旧，因为这台服务器系统是Windows Server,所以我链接远程桌面，想看下什么东西在吃资源。</li>
+<li>第一次进系统发现是Windows defender的AntiVirus进程在占用cpu,百度相关解决办法后把进程停了。这时候我以为没事了，因为系统占用也往下掉了，不过就在我准备在测试的时候发现系统占用一直卡在80%左右浮动。</li>
+<li>接下来我又去任务管理器看，不过什么也看不出来，占用第一是任务管理器40%多，然后都是百分之几的进程。然后我又下载了Windows官方查看系统进程占用的软件，发现只有一个系统中断占用了百分之十几，其他啥也没有，就这样折腾了一个小时。因为我目前使用的服务器都没有快照，只有主站和主站数据库的备份，所以我有点慌，先把服务器上的7个网站和4个数据库全部备份了。当时我已经做好了重做系统的准备，并且也这么做了，吃到亏的我不敢再瞎搞了，虽然当时我已经放弃那个系统了，不过我还是做了一份快照，也就是这份快照把我救了回来。</li>
+<li>在做好快照之后我没有半点犹豫，立马把系统格了，下载了面板，使用相同的软件，相同的版本进行部署。一切顺利，系统也没有出现占用过高。然后我把几个网站和数据库文件恢复回去，先设置了我的主站点来测试行不行，显示数据库通信失败。还是数据库的问题，好在我之前把整个数据库文件夹打包了，所以我直接整个恢复了数据库文件夹，不过我只备份了数据库密码，并没有备份数据库ROOT密码,这下我傻了，不过这时候网站已经可以正常访问了，只是一些图片不显示，文章点进去404。</li>
+<li>这时候我又正好有事出去了一趟，路上还在想怎么搞，回来我就鬼使神差地把现在的系统又做了一个快照，然后回滚上一个系统了。当时想法特别简单，想去看数据库密码，然后再试下能不能把原系统恢复。然后进入系统以后，系统仍然占用80%，网页仍然无法访问，我就进面板后台想试试能不能重启nginx服务，发现报错提示配置出错，百度无果后，直接重装nginx，然后奇迹发生了，网站正常访问，服务器占用恢复正常，只是到现在我还是不清楚为什么。</li>
+</ul>
+<blockquote>
+<p>总结下教训，遇到问题先不要急，先冷静下来把所有问题想清楚，三思而后行，因为可能一步错步步错，还得事先想好退路。然后在平时也需要未雨绸缪，不要等到问题出现才想到，woc,没快照，没备份，然后就回天乏术了。</p>
+</blockquote>
 
 							</div>
 	<div class="wow bounceInDown vt-post-tags">
  
-				<a href="https://nymane.github.io/tag/BXWqlsxcp/" rel="tag">Gridea</a>	
+				<a href="https://nymane.github.io/tag/1x1EvarmVH/" rel="tag">服务器</a>	
+				 
+				<a href="https://nymane.github.io/tag/xeBG1ac2uG/" rel="tag">宕机</a>	
+				 
+				<a href="https://nymane.github.io/tag/d6M2fUdJoD/" rel="tag">运维</a>	
 				 
 					</div>						
 <nav class="navigation3 post-navigation3" role="navigation">
 		
 		<div class="nav-links3">
       
-		<div class="wow bounceInLeft nav-previous3"><a href="https://nymane.github.io/post/2020-02-29-黑羊效应/" rel="prev"> 黑羊效应</a></div>
+		<div class="wow bounceInLeft nav-previous3"><a href="https://nymane.github.io/post/2020-04-14-豆瓣四大神机：美能达X700/" rel="prev"> 豆瓣四大神机：美能达X700</a></div>
 		 
 		 
+		<div class="wow bounceInRight nav-next3"><a href="https://nymane.github.io/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/" rel="next"> 世界上第一台自动对焦相机MINOLTA α7000</a></div>
+		
 		</div>
 	</nav>
 	<div class="wow rollIn author-info" style="visibility: visible; animation-name: rollIn;">

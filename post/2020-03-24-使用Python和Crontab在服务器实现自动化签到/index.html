@@ -6,7 +6,7 @@
 <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
 <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
 <meta HTTP-EQUIV="expires" CONTENT="0"> 
-<title>Hello Gridea | Nymane</title>	
+<title>使用Python和Crontab在服务器实现自动化签到 | Nymane</title>	
 
 <link rel="stylesheet" href="https://nymane.github.io/styles/main.css">
 <script type="text/javascript">
@@ -63,8 +63,6 @@ window.onload=getCSS();
         
 			
 		<header id="header" class="site-header" 
-		
-		style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://nymane.github.io/post-images/hello-gridea.png)"
 		
 		>
 			<div class="site-branding">
@@ -158,10 +156,10 @@ window.onload=getCSS();
 	
 	                      
 		<div class="entry-content">
-			<h1 class="wow swing entry-title">Hello Gridea</h1>
+			<h1 class="wow swing entry-title">使用Python和Crontab在服务器实现自动化签到</h1>
 <div class="entry-meta">
 <div class="wow bounce">
-	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2018-12-12 00:00:00" itemprop="datePublished" pubdate="">2018-12-12</time></i>
+	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2020-03-24 20:03:00" itemprop="datePublished" pubdate="">2020-03-24</time></i>
 	          </div>
 			
 </span>
@@ -169,41 +167,43 @@ window.onload=getCSS();
 		</div>
                   
 			<div class="wow slideInLeft entry-summary song">
-				<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+				<p>首先需要一台Lniux服务器，我这里使用的是centos8，默认已经装好了Python3.6。本次自动签到的站点是<a href="https://www.zztuku.com">站长图库</a></p>
+<!--more-->
+<h2 id="首先需要获取签到cookies">首先需要获取签到cookies</h2>
+<p>，先进入网站，登录按下F12然后签到，会看到项目里有member-signin.html，在Reques Headers下面就有cookies，复制下来拷贝到提供的样板文件中<img src="https://www.nymane.xyz/usr/uploads/2020/03/1166433621.png" alt="示例" loading="lazy">把空的cookies一栏替换成自己的，第一步就结束了，可以先在本地测试。<img src="https://www.nymane.xyz/usr/uploads/2020/03/87889171.png" alt="TIM截图20200324194718.png" loading="lazy"></p>
+<h2 id="在服务器端测试文件">在服务器端测试文件</h2>
+<p><img src="https://www.nymane.xyz/usr/uploads/2020/03/3266633227.png" alt="TIM截图20200324195035.png" loading="lazy"><br>
+如果返回一样的内容说明文件没有问题，接下来就可以设置自动化了，自动化采用的是Linux自带的crontab。</p>
+<h2 id="设置crontab">设置crontab</h2>
+<p>在根目录下<code>vim etc/crontab</code>就可以进入crontab的任务编辑界面，如果进不去可能是没有启动服务，使用<code>service crond start</code>来启动crontab服务。进入crontab界面后会看到这样一个界面，上面有五个*分别代表分钟，小时，天数，月份，星期，例如我这个就表示每天九点签到，进入编辑后输入<code>0 9 * * * root 你的代码地址/qiandao.py</code>或者和我一样用SH文件,保存即可。<img src="https://www.nymane.xyz/usr/uploads/2020/03/2015591891.png" alt="TIM截图20200324195917.png" loading="lazy"></p>
+<!--more-->
+<p>输入<code>crontab -l</code>查看正在运行的项目，文件会自动生成log.txt,方便查看签到记录<br>
+[button color=&quot;success&quot; icon=&quot;glyphicon glyphicon-download-alt&quot; url=&quot;https://pan.baidu.com/s/18YzvIEeKv6KnwC_kW6Qbpw&quot; type=&quot;&quot;]下载[/button]<br>
+[collapse status=&quot;false&quot; title=&quot;提取码&quot;]57f8[/collapse]</p>
 
 							</div>
 	<div class="wow bounceInDown vt-post-tags">
  
-				<a href="https://nymane.github.io/tag/BXWqlsxcp/" rel="tag">Gridea</a>	
+				<a href="https://nymane.github.io/tag/1x1EvarmVH/" rel="tag">服务器</a>	
+				 
+				<a href="https://nymane.github.io/tag/mJU8fTA29Oo/" rel="tag">python</a>	
+				 
+				<a href="https://nymane.github.io/tag/losjUYF3VfK/" rel="tag">爬虫</a>	
+				 
+				<a href="https://nymane.github.io/tag/DRzC_GzLdqH/" rel="tag">自动化</a>	
+				 
+				<a href="https://nymane.github.io/tag/ZdDcfdXF4H-/" rel="tag">Linux</a>	
 				 
 					</div>						
 <nav class="navigation3 post-navigation3" role="navigation">
 		
 		<div class="nav-links3">
       
-		<div class="wow bounceInLeft nav-previous3"><a href="https://nymane.github.io/post/2020-02-29-黑羊效应/" rel="prev"> 黑羊效应</a></div>
+		<div class="wow bounceInLeft nav-previous3"><a href="https://nymane.github.io/post/2020-03-27-测试了一个新的博客系统/" rel="prev"> 测试了一个新的博客系统</a></div>
 		 
 		 
+		<div class="wow bounceInRight nav-next3"><a href="https://nymane.github.io/post/2020-03-22-关于使用ownCloud搭建云盘的踩坑记录/" rel="next"> 关于使用ownCloud搭建云盘的踩坑记录</a></div>
+		
 		</div>
 	</nav>
 	<div class="wow rollIn author-info" style="visibility: visible; animation-name: rollIn;">

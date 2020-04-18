@@ -6,7 +6,7 @@
 <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
 <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
 <meta HTTP-EQUIV="expires" CONTENT="0"> 
-<title>Hello Gridea | Nymane</title>	
+<title>如何使用Leanote搭建一个私人云笔记 | Nymane</title>	
 
 <link rel="stylesheet" href="https://nymane.github.io/styles/main.css">
 <script type="text/javascript">
@@ -63,8 +63,6 @@ window.onload=getCSS();
         
 			
 		<header id="header" class="site-header" 
-		
-		style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://nymane.github.io/post-images/hello-gridea.png)"
 		
 		>
 			<div class="site-branding">
@@ -158,10 +156,10 @@ window.onload=getCSS();
 	
 	                      
 		<div class="entry-content">
-			<h1 class="wow swing entry-title">Hello Gridea</h1>
+			<h1 class="wow swing entry-title">如何使用Leanote搭建一个私人云笔记</h1>
 <div class="entry-meta">
 <div class="wow bounce">
-	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2018-12-12 00:00:00" itemprop="datePublished" pubdate="">2018-12-12</time></i>
+	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2020-03-19 15:15:00" itemprop="datePublished" pubdate="">2020-03-19</time></i>
 	          </div>
 			
 </span>
@@ -169,41 +167,59 @@ window.onload=getCSS();
 		</div>
                   
 			<div class="wow slideInLeft entry-summary song">
-				<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+				<ul>
+<li>介绍</li>
+</ul>
+<p>首先介绍一下:Leanote是目前为止发现的最有bigger的云笔记,灵活而强大的“笔记本-笔记-标签”系统，让它成为你个人知识管理的利器。markdown输入,代码高亮,多人协作,笔记历史记录,笔记内导航,直接发布为博客,还相互协作，激荡新思路，随时随地头脑风暴等等。项目开源,采用golang + mongodb开发。可以在Linux或Windwos下部署，本文主要介绍Windows下的部署方法。</p>
+<p>首先，需要下载MongoDB和Leanote<br>
+<a href="https://sourceforge.net/projects/leanote-bin/files/2.6.1/">Leanote</a><br>
+<a href="https://www.mongodb.com/">MongoDB</a></p>
+<ul>
+<li>安装MongoDB数据库<br>
+安装完成，在C盘建立文件夹data，再在data中建立文件夹db。因为不知什么原因，启动数据库服务替换要存放至此。<br>
+注意：由于权限问题leanote_server程序包不能放在Program Files下</li>
+<li>测试MongoDB是否安装成功<br>
+使用cmd进入MongoDB安装目录 \ Server \ 4.0 \ bin输入Mongod<br>
+<code>C:\Program Files\MongoDB\Server\4.0\bin&gt;mongod</code>出现“waiting for connections on port 27017”则MongoDB安装成功。<br>
+<img src="https://i.loli.net/2020/03/19/LUOFEanbu2tMo5x.png" alt="TIM截图20200319145633.png" loading="lazy"></li>
+<li>引入Leanote初始数据库<br>
+新打开一个cmd，输入<br>
+<code>C:\Program Files\MongoDB\Server\4.0\bin&gt;mongorestore -h 127.0.0.1 -d leanote --dir C:\Users\beens\leanote\mongodb_backup\leanote_install_data</code><br>
+末尾出现done就表示完成数据导入</li>
+<li>运行leanote服务<br>
+运行leanote安装目录下的bin内的run.<br>
+<img src="https://i.loli.net/2020/03/19/aHCFvdz3KjsDbxo.png" alt="TIM截图20200319150354.png" loading="lazy"><br>
+出现 “Listening on.. 0.0.0.0:9000” 表示运行成功了。<br>
+<img src="https://i.loli.net/2020/03/19/3nhErcxUVoGARaK.png" alt="TIM截图20200319150630.png" loading="lazy"><br>
+注意：还需要修改hosts文件，添加0.0.0.0 localhost﻿  hosts路径C:\Windows\System32\drivers\etc</li>
+<li>浏览器访问http://localhost:9000/, 即出现登录界面。<br>
+默认管理员账号admin, 密码为abc123</li>
+</ul>
+<hr>
+<p>到这里leanote的安装已经结束且可以正常使用了，下面是将你的leanote映射到外网。<br>
+因为我使用的是ngix，直接反向代理，比如想绑定域名a.com到你运行Leanote服务器, 你需要将leanote以80端口运行, 请修改conf/app.conf的如下配置:<br>
+http.port=80<br>
+site.url=http://a.com<br>
+然后启动Leanote. 当然你还需要将a.com绑定ip到Leanote服务器.<br>
+如果服务器上已有其它程序运行了80端口, 怎么办呢? 请百度下 &quot;使用nginx分发请求到不同端口&quot;。</p>
 
 							</div>
 	<div class="wow bounceInDown vt-post-tags">
  
-				<a href="https://nymane.github.io/tag/BXWqlsxcp/" rel="tag">Gridea</a>	
+				<a href="https://nymane.github.io/tag/1x1EvarmVH/" rel="tag">服务器</a>	
+				 
+				<a href="https://nymane.github.io/tag/VTcLtga0ta6/" rel="tag">云笔记</a>	
 				 
 					</div>						
 <nav class="navigation3 post-navigation3" role="navigation">
 		
 		<div class="nav-links3">
       
-		<div class="wow bounceInLeft nav-previous3"><a href="https://nymane.github.io/post/2020-02-29-黑羊效应/" rel="prev"> 黑羊效应</a></div>
+		<div class="wow bounceInLeft nav-previous3"><a href="https://nymane.github.io/post/2020-03-22-关于使用ownCloud搭建云盘的踩坑记录/" rel="prev"> 关于使用ownCloud搭建云盘的踩坑记录</a></div>
 		 
 		 
+		<div class="wow bounceInRight nav-next3"><a href="https://nymane.github.io/post/2020-03-12-我与D3200的故事/" rel="next"> 我与D3200的故事</a></div>
+		
 		</div>
 	</nav>
 	<div class="wow rollIn author-info" style="visibility: visible; animation-name: rollIn;">
