@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nymane.github.io</id>
     <title>Nymane</title>
-    <updated>2020-04-18T06:26:25.159Z</updated>
+    <updated>2020-04-18T06:29:50.700Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nymane.github.io"/>
     <link rel="self" href="https://nymane.github.io/atom.xml"/>
@@ -10,16 +10,6 @@
     <logo>https://nymane.github.io/images/avatar.png</logo>
     <icon>https://nymane.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Nymane</rights>
-    <entry>
-        <title type="html"><![CDATA[友链]]></title>
-        <id>https://nymane.github.io/post/you-lian/</id>
-        <link href="https://nymane.github.io/post/you-lian/">
-        </link>
-        <updated>2020-04-18T06:26:01.000Z</updated>
-        <content type="html"><![CDATA[<ul class="links">
-<li><a href="网站地址" target="_blank" rel="noopener noreferrer">网站名称</a></li>
-</ul>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://nymane.github.io/post/hello-gridea/</id>
