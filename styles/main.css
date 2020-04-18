@@ -2457,3 +2457,7 @@ ul.links li:hover .bg {
     background-color: #aaa;
   }
 }
+
+    header {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://photo.nymane.xyz/2020/04/04/c65be18b3b246.jpg);}
+    
+    
