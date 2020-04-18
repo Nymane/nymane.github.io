@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://nymane.github.io</id>
+    <id>http://localhost:4000</id>
     <title>Nymane</title>
-    <updated>2020-04-18T09:23:51.469Z</updated>
+    <updated>2020-04-18T09:25:30.039Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://nymane.github.io"/>
-    <link rel="self" href="https://nymane.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>追求源于热爱，极致源于梦想</subtitle>
-    <logo>https://nymane.github.io/images/avatar.png</logo>
-    <icon>https://nymane.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2020, Nymane</rights>
     <entry>
         <title type="html"><![CDATA[纯静态博客系统Gridea]]></title>
-        <id>https://nymane.github.io/post/2020-04-18-纯静态博客系统Gridea/</id>
-        <link href="https://nymane.github.io/post/2020-04-18-纯静态博客系统Gridea/">
+        <id>http://localhost:4000/post/2020-04-18-纯静态博客系统Gridea/</id>
+        <link href="http://localhost:4000/post/2020-04-18-纯静态博客系统Gridea/">
         </link>
         <updated>2020-04-18T09:05:00.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -62,8 +62,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[电脑端QQ、微信、TIM防撤回补丁]]></title>
-        <id>https://nymane.github.io/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/</id>
-        <link href="https://nymane.github.io/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/">
+        <id>http://localhost:4000/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/</id>
+        <link href="http://localhost:4000/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/">
         </link>
         <updated>2020-04-18T03:33:15.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -83,9 +83,153 @@
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[关于华硕天选]]></title>
+        <id>http://localhost:4000/post/2020-04-17-关于华硕天选/</id>
+        <link href="http://localhost:4000/post/2020-04-17-关于华硕天选/">
+        </link>
+        <updated>2020-04-17T03:16:00.000Z</updated>
+        <content type="html"><![CDATA[<p>之前我一直想不通,为什么AMD至今为止就开卖了一款华硕天选游戏本,但inte阵营的产品就被贬到如此境地?更何况华硕天选本身还是有缺憾的,比如屏幕低色域和QLC固态就是个例子,他确实性价比很高,但也不至于被捧成那样吧?最近翻看贴吧和知乎后,我发现了关键因素。AMD游戏本虽然就一款天选,但它已经不只是一台游戏本了,而是【消费者对现状不满的杆旗帜】。<br>
+<img src="https://photo.nymane.xyz/2020/04/17/9ca414655a7be.jpg" alt="天选" loading="lazy"><br>
+联想5月首发没2060显卡?拉天选出来把联想批判一番!英特尔的八核订那么贵?拉天选出来把英特尔批判一番!就连昨天首发点评的神舟G8游戏本,也因为价格好像没有那么低,被人用天选喷了一波心这就说明了一个问题一一消费者对现状不满意。<br>
+<img src="https://photo.nymane.xyz/2020/04/17/b77088542de05.jpg" alt="拯救者" loading="lazy"><br>
+消费者对联想吊胃囗营销的方式不满意,消费者对英特尔8核处理器定价过高不满意,只要消费者不满意,天选就会出现,因为它不仅是竞品,还是一面旗帜恐怕华硕自己都没想到,天选的热度会强到如此境界。那这面“旗帜什么时候会受到挑战呢?个人观点,只要inte在618之前还无法推举出款【席卷整个PC市场的爆款游戏本】,那天选这杄旗会让所有一二线品牌都深陷舆论漩涡,甚至包括华硕自己因为它的销售大头还是intel</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[豆瓣四大神机：奥林巴斯 OM-1]]></title>
+        <id>http://localhost:4000/post/2020-04-16-豆瓣四大神机：奥林巴斯_OM-1/</id>
+        <link href="http://localhost:4000/post/2020-04-16-豆瓣四大神机：奥林巴斯_OM-1/">
+        </link>
+        <updated>2020-04-16T04:18:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="关于olympus">关于Olympus</h3>
+<p>其实在摄影圈里，还有很多不出名但依旧很具实力和颜值的品牌，比如：奥林巴斯。</p>
+<p>奥林巴斯最初名为“株式会高千橞制作所”，于1919年成立，</p>
+<p>最初是以制作显微镜起家的，作为一家拥有悠久历史的数码相机企业，曾几度起起伏伏，一度更甚至要关门倒闭。</p>
+<h3 id="关于olympus-om-1">关于Olympus OM-1</h3>
+<figure data-type="image" tabindex="1"><img src="https://photo.nymane.xyz/2020/04/16/02de7eec5d057.jpeg" alt="Olympus OM-1" loading="lazy"></figure>
+<p>大概10年以前，那是一个数码相机大发展的年代，平均像素突破1000万，2000万像素相机开始出现，自动对焦从几点开始转向几十点，进一步走向不在按点分。</p>
+<p>同时，那也是胶卷最困难的年代，宝丽来倒闭，柯达濒临倒闭，富士开始停产主力产品，胶卷将被数码相机替代的预言似乎就要应验了。</p>
+<p>然而就在这个时候，有几台相机在网上一下子流行了起来，他们以豆瓣网为中心，因为便宜好用，被人冠以豆瓣四大神机的美名。</p>
+<p>这四大神机分别是尼康FM2，佳能AE-1，美能达X700，还有奥林巴斯的OM1，但是也有一些人把奥林巴斯OM-1剔除在外。</p>
+<p>纵观这4个品牌，奥林巴斯似乎是最弱的，虽然美能达已经消失，但是索尼可以看做其延续，尼康，佳能还是老大。奥林巴斯虽然一直坚持到现在，勇气可嘉，但是不温不火。即使在当年，奥林巴斯的单反产品也比较少，虽然有一些神来之笔，但比起尼康，佳能，美能达，似乎也不是一个档次。</p>
+<p>也正因为如此，四大神机里的OM-1从一开始就蒙上了弱其他三台一筹的色彩，何况其他三台里有持续生产了20年的X700和FM2。</p>
+<h3 id="olympus-om-1特点">Olympus OM-1特点</h3>
+<figure data-type="image" tabindex="2"><img src="https://photo.nymane.xyz/2020/04/16/1e7589c95a946.png" alt="Olympus OM-1" loading="lazy"></figure>
+<p>OM-1制造的最核心逻辑是差异化，也就是解决60-70年代单反相机的操作不便的问题，比如机身过重，操作功能不便等等。那个年代的单反不管专业还是入门都很大很重，OM-1相比之下就轻便很多了。</p>
+<p>此外，快门调节也是一个问题，那个时候相机还没有A档，一定要手调快门，而快门盘一般在机顶，所以各家都顶在机顶，这让快门调节很不方便，只能被迫顶好快门，调节光圈，这样会影响画面效果。</p>
+<p>因此，OM-1破天荒地把快门盘集成在镜头接口后面，就像120相机或是大画幅镜头的镜间快门一样，可以一个手同时调节快门，光圈和对焦。</p>
+<p>而机顶的转盘用来调节测光系统的感光度。</p>
+<p>其实对于任何新手而言，这个操作本身没有问题，对于老手而言可能是不太习惯。当然，因为这个设计，OM镜头的光圈环也挪到了镜头的前面，一般旁轴相机才这么干，日本单反的光圈环一般都是靠近机身的。</p>
+<h3 id="olympus-om-1问题">Olympus OM-1问题</h3>
+<ul>
+<li>
+<p>取景器中可读取的数据太少，与今天满眼数字符号的数码相机对比简直就是白板一张！还有就是不能更换的固定式取景器，使其最终无法达到顶级专业相机的水平。</p>
+</li>
+<li>
+<p>多年使用后，充填在取景器内、机身边缘的防漏光海绵会老化而变得黏糊糊的，虽然不会漏光但是很脏，有时五棱镜内部常会出现黑斑，不易清除。</p>
+</li>
+<li>
+<p>塑料材质闪光热靴的很容易碎裂或丢失，一旦丢失十分难看，也没处可配，另外饰皮翘皮也很常见。</p>
+</li>
+<li>
+<p>测光表失准。OM-1 相机的测光原件是硫化镉（CdS）光敏电阻，测光精度和使用寿命一般，后来的 OM-2 系列就改用了更为先进的蓝硅光电池测光元件。不过，当我们拿到一架 OM-1 系列相机时，可以用个流传了数十年的简单办法检验它的测光：装上一枚确保有效的新电池，将感光度设在 ASA 100 再将光圈和快门分别调到 f/11、1/125 秒，然后将镜头紧贴在新 40 瓦日光灯管的中部，使明亮的灯管充满画面，这时观察取景器内的测光指针应该在缺口中间，如果不在，适当改变光圈或者快门数值后，使测光指针指向中间，即可判断出误差有多大。</p>
+</li>
+</ul>
+<h3 id="后话">后话</h3>
+<p>10年过去了，现在胶卷在大陆又重新火热起来，更多年轻人投入到这个有趣的兴趣爱好中，四大神机现在依然是许多爱好者入门神器，而OM-1还是如此低调。</p>
+<p>不过在日本，OM系列相机特别是之后的OM3，OM4还是胶卷迷热衷的机型。</p>
+<p>如今数码时代，Olympus的传统设计也在新的数码机型上传承了下来，并且原有的奥林巴斯 OM 镜仍可以通过转接环接到奥林巴斯数码相机 OM-D 系列上使用，也可以转接到各品牌无反/单反相机上拍摄，比如转接到索尼 NEX 系列相机、尼康 D 系列数码相机等。转接后，镜头等效焦距要乘以 1.5 或 2.0 的相应系数，曝光方式可以用光圈优先或者 M 挡手动曝光，调焦方式还是手动调焦。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IntelliJ IDEA 2020.1注册码（亲测有效，可激活至 2089 年)]]></title>
+        <id>http://localhost:4000/post/2020-04-14-IntelliJ_IDEA_2020.1注册码（亲测有效，可激活至_2089_年)/</id>
+        <link href="http://localhost:4000/post/2020-04-14-IntelliJ_IDEA_2020.1注册码（亲测有效，可激活至_2089_年)/">
+        </link>
+        <updated>2020-04-14T11:44:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="声明">声明</h2>
+<blockquote>
+<p>本教程只做个人学习使用，请勿用于商业用途！<br>
+若资金允许，请点击 https://www.jetbrains.com/idea/buy/ 购买正版，谢谢合作！<br>
+学生凭学生证可免费申请 https://sales.jetbrains.com/hc/zh-cn/articles/207154369-学生授权申请方式 正版授权！<br>
+创业公司可5折购买 https://www.jetbrains.com/shop/eform/startup 正版授权！</p>
+</blockquote>
+<ul>
+<li>intellij idea系列软件是很多Java行业程序员最喜欢使用的软件之一，虽然目前新的2020.1版本已经发布，但是很多用户表示用不起。那么就可以配合试试本站提供的idea 2020.1注册补丁，这是一个针对intellij idea 2020.1软件而打造的注册补丁文件，只要在正常安装完软件后使用注册补丁就能完美激活程序，详细的使用说明可以看下方的教程。</li>
+<li>idea 2020.1与上一个版本相比多了禅模式、统一的IntelliJ Light主题等功能，能够帮助开发者更加专注于代码上，以及内置多种主题方便用户随心选择使用，还改进了导航栏，现在用户无需滚动屏幕即可跳转到需要产看的代码行。<br>
+<img src="https://photo.nymane.xyz/2020/04/14/9b2fbb5744264.png" alt="IntelliJ IDEA 2020.1" loading="lazy"></li>
+</ul>
+<h3 id="下载-idea-20201-安装包">下载 IDEA 2020.1 安装包</h3>
+<p>其实也可以从老版本直接升级，这里为了照顾大部分人可能第一次安装，我们选择从官网下载，下载地址为: <a href="https://www.jetbrains.com/idea/download/">IntelliJ官网</a>点击下载，静待下载完成~</p>
+<h3 id="启动-idea-20201-安装包">启动 IDEA 2020.1 安装包</h3>
+<figure data-type="image" tabindex="1"><img src="https://photo.nymane.xyz/2020/04/14/ba288e93aa03c.png" alt="启动" loading="lazy"></figure>
+<ol>
+<li>安装目录默认为C:\Program Files\JetBrains\IntelliJ IDEA 2020.1</li>
+<li>勾选创建桌面快捷方式，我只创建了64位，32位与关联文件请行选择</li>
+<li>点install开始安装，请耐心等待<br>
+<img src="https://photo.nymane.xyz/2020/04/14/db93dab2301a1.jpg" alt="安装" loading="lazy"></li>
+</ol>
+<h3 id="注册-idea-20201">注册 IDEA 2020.1</h3>
+<ol>
+<li>打开IntelliJ IDEA，弹出注册界面，选择evaluate for free，点击evaluate试用软件<br>
+<img src="https://photo.nymane.xyz/2020/04/14/22611a1356d10.png" alt="试用" loading="lazy"></li>
+<li>将lib文件夹中的jetbrains-agent.jar拖动到软件内<br>
+<img src="https://photo.nymane.xyz/2020/04/14/dccc1763b41f0.png" alt="拖入" loading="lazy"></li>
+<li>注册补丁安装完成，点击restart重启软件<br>
+<img src="https://photo.nymane.xyz/2020/04/14/a2af1011f449a.jpg" alt="重启" loading="lazy"></li>
+<li>弹出激活方式，选择activation code后，点击为idea安装，然后再点击“是”，重启软件<br>
+<img src="https://photo.nymane.xyz/2020/04/14/330bc8df26224.png" alt="激活" loading="lazy"></li>
+<li>看下图到期时间2089年，激活成功<br>
+<img src="https://photo.nymane.xyz/2020/04/14/898f31697dc1e.png" alt="成功" loading="lazy"></li>
+</ol>
+<h3 id="文件下载">文件下载</h3>
+<p>[collapse status=&quot;false&quot; title=&quot;下载链接&quot;]https://lanzous.com/ibdvq9a[/collapse]</p>
+<h3 id="tips">TIPS</h3>
+<ul>
+<li>有小部分网友（都是Windows系统）反馈看不到Helper的按钮，你直接敲回车啊！</li>
+<li>至于ReSharper，请务必试试这个方法：传送门！</li>
+<li>新的 agent license server：https://fls.jetbrains-agent.com（HTTP也可用）</li>
+<li>插件的 Activation code，暂不在列表的试试 license server。</li>
+</ul>
+<h3 id="在以下ide版本测试可成功激活v320">在以下IDE版本测试可成功激活（v3.2.0）：</h3>
+<ul>
+<li>
+<p>IntelliJ IDEA 2020.1及以下</p>
+</li>
+<li>
+<p>AppCode 2019.3.7及以下</p>
+</li>
+<li>
+<p>CLion 2019.3.5及以下</p>
+</li>
+<li>
+<p>DataGrip 2020.1及以下</p>
+</li>
+<li>
+<p>GoLand 2020.1及以下</p>
+</li>
+<li>
+<p>PhpStorm 2019.3.4及以下</p>
+</li>
+<li>
+<p>PyCharm 2020.1及以下</p>
+</li>
+<li>
+<p>Rider 2019.3.4及以下</p>
+</li>
+<li>
+<p>RubyMine 2019.3.4及以下</p>
+</li>
+<li>
+<p>WebStorm 2020.1及以下</p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[豆瓣四大神机：美能达X700]]></title>
-        <id>https://nymane.github.io/post/2020-04-14-豆瓣四大神机：美能达X700/</id>
-        <link href="https://nymane.github.io/post/2020-04-14-豆瓣四大神机：美能达X700/">
+        <id>http://localhost:4000/post/2020-04-14-豆瓣四大神机：美能达X700/</id>
+        <link href="http://localhost:4000/post/2020-04-14-豆瓣四大神机：美能达X700/">
         </link>
         <updated>2020-04-14T02:38:43.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -111,9 +255,23 @@
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[一个人想做差异化内容内容真的很难]]></title>
+        <id>http://localhost:4000/post/2020-04-11-一个人想做差异化内容内容真的很难/</id>
+        <link href="http://localhost:4000/post/2020-04-11-一个人想做差异化内容内容真的很难/">
+        </link>
+        <updated>2020-04-11T08:53:00.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>现在我有两个博客,本来是想整体搬迁，不过工作量太过巨大，某些功能也不能全部实现，等到明年服务器和域名到期可能会把两个博客合并，不过暂时还不想。</li>
+<li>于是我便想做差异化，不过一个人做差异化有点困难，毕竟一个人的创意和想法也就这么多。并且我也还想随博客更新类似动态或者日志的每日随记，那我是两个站同时更新还是分别更新，如果分别更新，是按照日期来，还是按照内容来，这样就衍生出一堆麻烦。目前我先简单地把两个博客划分为生活分享和编程代码分享，那么自然本博客就是分享生活为主，目前已经把所有关于代码类图文全部隐藏。<img src="https://photo.nymane.xyz/2020/04/11/a0191bf1b4ae5.png" alt="隐藏的图文" loading="lazy"></li>
+<li>并且代码类相关的也很难被收录，索性全部移至备站，备站我不打算搞SEO优化，打算就这样作为自己的代码学习日记。最近在备站更新的文章也没有同步到本站<br>
+<img src="https://photo.nymane.xyz/2020/04/11/5f3f4767f41df.png" alt="TIM截图20200411165041.png" loading="lazy"></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[记一次服务器宕机体验]]></title>
-        <id>https://nymane.github.io/post/2020-04-11-记一次服务器宕机体验/</id>
-        <link href="https://nymane.github.io/post/2020-04-11-记一次服务器宕机体验/">
+        <id>http://localhost:4000/post/2020-04-11-记一次服务器宕机体验/</id>
+        <link href="http://localhost:4000/post/2020-04-11-记一次服务器宕机体验/">
         </link>
         <updated>2020-04-11T07:35:00.000Z</updated>
         <content type="html"><![CDATA[<ul>
@@ -131,8 +289,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[世界上第一台自动对焦相机MINOLTA α7000]]></title>
-        <id>https://nymane.github.io/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/</id>
-        <link href="https://nymane.github.io/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/">
+        <id>http://localhost:4000/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/</id>
+        <link href="http://localhost:4000/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/">
         </link>
         <updated>2020-04-10T01:16:00.000Z</updated>
         <content type="html"><![CDATA[<p>1985年初诞生的美能达α7000成为了世界上第一种具有一体化自动调焦功能的135单镜头反光照相机，这是一种具有里程碑意义的135单反相机。α7000备有箭号指示按钮以调整光圈及快门值，而非一般机身所用的快门转盘及镜头上的光圈环，这样的结果，是操作的时候，镜头只需留下手动对焦环（变焦镜的话则加上变焦环）。其他相机制造商随即跟进，美能达的创新，让销售上取得巨大成功。<br>
@@ -147,8 +305,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于我自己目前使用的数码产品、购入时间及感受]]></title>
-        <id>https://nymane.github.io/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/</id>
-        <link href="https://nymane.github.io/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/">
+        <id>http://localhost:4000/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/</id>
+        <link href="http://localhost:4000/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/">
         </link>
         <updated>2020-04-08T07:39:00.000Z</updated>
         <content type="html"><![CDATA[<ul>
@@ -164,80 +322,6 @@
 <blockquote>
 <p>最后总结下，除了电脑以外，我都很满意，并没感觉后悔，说实话电脑虽然不那么满意，也说不上后悔，持续的性能发挥并说不上差，在那个是时间，那个价位也是不错的选择。但是后来又上了一批符合我需求的全能本，荣耀 16.1、小新PRO 13等等，就很难受。但是今年就不一样了，AMD杀入笔记本领域，打的因特尔简直没有还手之力，华硕也开始打价格战，今年的笔记本行情可谓风云变换，AMD 4800H就能打9980H，然而定位仅仅是I5级别，同样的低压U方面也是4500U性能也是惊世骇俗，很难想象AMD的新低压U上小新PRO这种机器会怎么样的表现。</p>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今天申请加入了Travelling]]></title>
-        <id>https://nymane.github.io/post/2020-03-31-今天申请加入了Travelling/</id>
-        <link href="https://nymane.github.io/post/2020-03-31-今天申请加入了Travelling/">
-        </link>
-        <updated>2020-03-31T08:39:00.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>加入Travelling之后，相当于加入了一个随机的友链网络。<br>
-每当有用户访问加入开往的网站时，点击后会随机跳转到另一个加入Travelling的网站。加入开往的网站越多，分享的流量也越多，就能有更多人认识你，同样的你也可以认识到更多人。“ 网站E → 开往 → 网站X → 开往 → 网站A → 开往 → 网站M → 开往 → 网站P → 开往 → 网站L → 开往 → 网站E … ”</p>
-</blockquote>
-<h2 id="网站应满足条件">网站应满足条件：</h2>
-<ul>
-<li>愿为开放的网络做出贡献（如分享知识经验设计等）；</li>
-<li>没有违法以及影响体验的内容（如侵入式广告等）；</li>
-<li>正常更新维护中（国内无法正常访问会被移除）；</li>
-<li>强制启用 https 。<br>
-[button color=&quot;dark&quot; icon=&quot;glyphicon glyphicon-tags&quot; url=&quot;https://github.com/volfclub/travellings&quot; type=&quot;&quot;]volfclub / travellings[/button]<br>
-<img src="https://cdn.naraku.cn/res/logo-travellings.gif" alt="Travelling图标" loading="lazy"></li>
-</ul>
-<h2 id="参加这个项目的原因">参加这个项目的原因</h2>
-<p>还记得刚弄博客的原因就是喜欢看其他人的博客，当时的我是通过手动点击一个又一个的友链，但是这样做还是会有很多局限，直到偶然的机会，发现有的博客上面有这样的一个图标，点击Travelling之后，目标博客随机跳转，开启了一个又一个新世界，看到了完全不同的人，将一个个独立的个人星球连接起来，去探索下一个未知的人。</p>
-<h2 id="最后希望通过审核-arublood">最后希望通过审核 ::aru:blood::</h2>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[哈勃望远镜30周年：可查询生日当天所拍照片]]></title>
-        <id>https://nymane.github.io/post/2020-03-31-哈勃望远镜30周年：可查询生日当天所拍照片/</id>
-        <link href="https://nymane.github.io/post/2020-03-31-哈勃望远镜30周年：可查询生日当天所拍照片/">
-        </link>
-        <updated>2020-03-31T02:04:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>NASA在1990年将哈勃太空望远镜送上宇宙。多年来，哈勃望远镜在太空里拍取了许多珍贵的图像，今年是哈勃望远镜服役将满30周年，NASA公开了366张珍贵图像，只要上官网选择你的出生日期，就能看到生日当天哈勃所拍下的宇宙图像。<br>
-还是挺有纪念意义的，要是凑巧年份也对上了，那就更棒了，可惜我的年份没对上 ::aru:crying::<br>
-![我的照片][1]</p>
-<p>[NASA活动网址][2]</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>NASA在1990年将哈勃太空望远镜送上宇宙。多年来，哈勃望远镜在太空里拍取了许多珍贵的图像，今年是哈勃望远镜服役将满30周年，NASA公开了366张珍贵图像，只要上官网选择你的出生日期，就能看到生日当天哈勃所拍下的宇宙图像。<br>
-还是挺有纪念意义的，要是凑巧年份也对上了，那就更棒了，可惜我的年份没对上 ::aru:crying::<br>
-![我的照片][1]</p>
-<p>[NASA活动网址][2]</p>
-<!--more-->
-<p>哈勃不知不觉已经30岁了，虽然退役，但是给世界留下了太多东西。不禁感叹人类的渺小，和我学地理每当学到宇宙和地球相关知识一样，眼界会宽阔，就开始思考人生的意义，虽然没能给世界留下什么东西，活好自己就行了吧...<br>
-[1]: https://www.nymane.xyz/usr/uploads/2020/03/370278958.jpg<br>
-[2]: https://www.nasa.gov/content/goddard/what-did-hubble-see-on-your-birthday</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于我的新LOGO]]></title>
-        <id>https://nymane.github.io/post/2020-03-29-关于我的新LOGO/</id>
-        <link href="https://nymane.github.io/post/2020-03-29-关于我的新LOGO/">
-        </link>
-        <updated>2020-03-29T06:50:00.000Z</updated>
-        <content type="html"><![CDATA[<h4 id="这是我的老logo没有什么深层含义就是一个新月和我的名字nymane相对应">这是我的老LOGO，没有什么深层含义，就是一个新月，和我的名字Nymane相对应。</h4>
-<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/03/29/YtaFuf1OIrRUw4N.png" alt="老LOGO" loading="lazy"></figure>
-<h4 id="这是我的新logo取自挪威语最后一个字母å在挪威语中是小河的意思读作奥同时挪威也有一个非常美丽的小镇以此为名被称为天涯海角世界尽头的小镇-同时这也是我英文名从挪威语到英语带不过来那个特殊符号">这是我的新LOGO，取自挪威语最后一个字母Å，在挪威语中是“小河”的意思，读作奥，同时挪威也有一个非常美丽的小镇以此为名，被称为天涯海角，世界尽头的小镇。同时这也是我英文名从挪威语到英语带不过来那个特殊符号。</h4>
-<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2020/03/29/rEbXqCpT2tBkGoO.png" alt="新LOGO" loading="lazy"></figure>
-<blockquote>
-<h4 id="其实很久之前就想为自己做一个稍微有点内涵的logo不过受限于自己ps技术拉跨也没有专业学过相关设计知识所以一直搁置下来最近看到关于奥镇的相关突然灵感上头但是也只能做到这样了技术还是菜不过我自己还是挺满意的毕竟它包罗了很多东西">其实很久之前就想为自己做一个稍微有点内涵的LOGO，不过受限于自己PS技术拉跨，也没有专业学过相关设计知识，所以一直搁置下来，最近看到关于奥镇的相关，突然灵感上头，但是也只能做到这样了（<s>技术还是菜</s>），不过我自己还是挺满意的，毕竟它包罗了很多东西</h4>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[测试了一个新的博客系统]]></title>
-        <id>https://nymane.github.io/post/2020-03-27-测试了一个新的博客系统/</id>
-        <link href="https://nymane.github.io/post/2020-03-27-测试了一个新的博客系统/">
-        </link>
-        <updated>2020-03-27T07:11:00.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>测试搭建成功☞http://nymane.club 目前还没有完全迁站打算(新域名备案成功)<br>
-测试站和本站是基于两个ECS，等新域名备案下来再做打算<br>
-测试站搭建采用Docker部署JAVA开源博客项目Halo，没有插件</p>
-</blockquote>
-<h4 id="折腾了这么久从wordpress到emlog再到typecho博客越来越臃肿精力投入插件与主题反而没怎么好好更新文章这次转入halo就是不太想折腾花里胡哨的东西把注意力投入文章更新这才是博客的本源-在慢慢的把文章往新站上迁移不过还没有完全迁完最近会两个博客同时更新而且有挺多问题我现在还解决不了比如在本站实装的邮件回复和cdn加速-paopaotieba_emotion_09">折腾了这么久，从WordPress到EMLOG，再到Typecho，博客越来越臃肿，精力投入插件与主题，反而没怎么好好更新文章，这次转入Halo就是不太想折腾花里胡哨的东西，把注意力投入文章更新，这才是博客的本源。在慢慢的把文章往新站上迁移，不过还没有完全迁完，最近会两个博客同时更新，而且有挺多问题我现在还解决不了，比如在本站实装的邮件回复和CDN加速 ::paopao:tieba_emotion_09::</h4>
 ]]></content>
     </entry>
 </feed>
