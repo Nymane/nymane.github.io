@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://nymane.github.io</id>
     <title>Nymane</title>
-    <updated>2020-04-18T09:25:30.039Z</updated>
+    <updated>2020-04-19T01:30:12.561Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://nymane.github.io"/>
+    <link rel="self" href="https://nymane.github.io/atom.xml"/>
     <subtitle>追求源于热爱，极致源于梦想</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://nymane.github.io/images/avatar.png</logo>
+    <icon>https://nymane.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Nymane</rights>
     <entry>
         <title type="html"><![CDATA[纯静态博客系统Gridea]]></title>
-        <id>http://localhost:4000/post/2020-04-18-纯静态博客系统Gridea/</id>
-        <link href="http://localhost:4000/post/2020-04-18-纯静态博客系统Gridea/">
+        <id>https://nymane.github.io/post/2020-04-18-纯静态博客系统Gridea/</id>
+        <link href="https://nymane.github.io/post/2020-04-18-纯静态博客系统Gridea/">
         </link>
         <updated>2020-04-18T09:05:00.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -62,8 +62,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[电脑端QQ、微信、TIM防撤回补丁]]></title>
-        <id>http://localhost:4000/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/</id>
-        <link href="http://localhost:4000/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/">
+        <id>https://nymane.github.io/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/</id>
+        <link href="https://nymane.github.io/post/2020-04-18-电脑端QQ、微信、TIM防撤回补丁/">
         </link>
         <updated>2020-04-18T03:33:15.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -84,8 +84,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于华硕天选]]></title>
-        <id>http://localhost:4000/post/2020-04-17-关于华硕天选/</id>
-        <link href="http://localhost:4000/post/2020-04-17-关于华硕天选/">
+        <id>https://nymane.github.io/post/2020-04-17-关于华硕天选/</id>
+        <link href="https://nymane.github.io/post/2020-04-17-关于华硕天选/">
         </link>
         <updated>2020-04-17T03:16:00.000Z</updated>
         <content type="html"><![CDATA[<p>之前我一直想不通,为什么AMD至今为止就开卖了一款华硕天选游戏本,但inte阵营的产品就被贬到如此境地?更何况华硕天选本身还是有缺憾的,比如屏幕低色域和QLC固态就是个例子,他确实性价比很高,但也不至于被捧成那样吧?最近翻看贴吧和知乎后,我发现了关键因素。AMD游戏本虽然就一款天选,但它已经不只是一台游戏本了,而是【消费者对现状不满的杆旗帜】。<br>
@@ -97,8 +97,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[豆瓣四大神机：奥林巴斯 OM-1]]></title>
-        <id>http://localhost:4000/post/2020-04-16-豆瓣四大神机：奥林巴斯_OM-1/</id>
-        <link href="http://localhost:4000/post/2020-04-16-豆瓣四大神机：奥林巴斯_OM-1/">
+        <id>https://nymane.github.io/post/2020-04-16-豆瓣四大神机：奥林巴斯_OM-1/</id>
+        <link href="https://nymane.github.io/post/2020-04-16-豆瓣四大神机：奥林巴斯_OM-1/">
         </link>
         <updated>2020-04-16T04:18:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="关于olympus">关于Olympus</h3>
@@ -143,8 +143,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[IntelliJ IDEA 2020.1注册码（亲测有效，可激活至 2089 年)]]></title>
-        <id>http://localhost:4000/post/2020-04-14-IntelliJ_IDEA_2020.1注册码（亲测有效，可激活至_2089_年)/</id>
-        <link href="http://localhost:4000/post/2020-04-14-IntelliJ_IDEA_2020.1注册码（亲测有效，可激活至_2089_年)/">
+        <id>https://nymane.github.io/post/2020-04-14-IntelliJ_IDEA_2020.1注册码（亲测有效，可激活至_2089_年)/</id>
+        <link href="https://nymane.github.io/post/2020-04-14-IntelliJ_IDEA_2020.1注册码（亲测有效，可激活至_2089_年)/">
         </link>
         <updated>2020-04-14T11:44:00.000Z</updated>
         <content type="html"><![CDATA[<h2 id="声明">声明</h2>
@@ -228,8 +228,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[豆瓣四大神机：美能达X700]]></title>
-        <id>http://localhost:4000/post/2020-04-14-豆瓣四大神机：美能达X700/</id>
-        <link href="http://localhost:4000/post/2020-04-14-豆瓣四大神机：美能达X700/">
+        <id>https://nymane.github.io/post/2020-04-14-豆瓣四大神机：美能达X700/</id>
+        <link href="https://nymane.github.io/post/2020-04-14-豆瓣四大神机：美能达X700/">
         </link>
         <updated>2020-04-14T02:38:43.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -256,8 +256,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[一个人想做差异化内容内容真的很难]]></title>
-        <id>http://localhost:4000/post/2020-04-11-一个人想做差异化内容内容真的很难/</id>
-        <link href="http://localhost:4000/post/2020-04-11-一个人想做差异化内容内容真的很难/">
+        <id>https://nymane.github.io/post/2020-04-11-一个人想做差异化内容内容真的很难/</id>
+        <link href="https://nymane.github.io/post/2020-04-11-一个人想做差异化内容内容真的很难/">
         </link>
         <updated>2020-04-11T08:53:00.000Z</updated>
         <content type="html"><![CDATA[<ul>
@@ -270,8 +270,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[记一次服务器宕机体验]]></title>
-        <id>http://localhost:4000/post/2020-04-11-记一次服务器宕机体验/</id>
-        <link href="http://localhost:4000/post/2020-04-11-记一次服务器宕机体验/">
+        <id>https://nymane.github.io/post/2020-04-11-记一次服务器宕机体验/</id>
+        <link href="https://nymane.github.io/post/2020-04-11-记一次服务器宕机体验/">
         </link>
         <updated>2020-04-11T07:35:00.000Z</updated>
         <content type="html"><![CDATA[<ul>
@@ -289,8 +289,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[世界上第一台自动对焦相机MINOLTA α7000]]></title>
-        <id>http://localhost:4000/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/</id>
-        <link href="http://localhost:4000/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/">
+        <id>https://nymane.github.io/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/</id>
+        <link href="https://nymane.github.io/post/2020-04-10-世界上第一台自动对焦相机MINOLTA_α7000/">
         </link>
         <updated>2020-04-10T01:16:00.000Z</updated>
         <content type="html"><![CDATA[<p>1985年初诞生的美能达α7000成为了世界上第一种具有一体化自动调焦功能的135单镜头反光照相机，这是一种具有里程碑意义的135单反相机。α7000备有箭号指示按钮以调整光圈及快门值，而非一般机身所用的快门转盘及镜头上的光圈环，这样的结果，是操作的时候，镜头只需留下手动对焦环（变焦镜的话则加上变焦环）。其他相机制造商随即跟进，美能达的创新，让销售上取得巨大成功。<br>
@@ -305,8 +305,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于我自己目前使用的数码产品、购入时间及感受]]></title>
-        <id>http://localhost:4000/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/</id>
-        <link href="http://localhost:4000/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/">
+        <id>https://nymane.github.io/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/</id>
+        <link href="https://nymane.github.io/post/2020-04-08-关于我自己目前使用的数码产品、购入时间及感受/">
         </link>
         <updated>2020-04-08T07:39:00.000Z</updated>
         <content type="html"><![CDATA[<ul>
